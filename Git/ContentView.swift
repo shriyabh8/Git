@@ -9,13 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack{
-            Text("Hello, world!")
-                .padding()
-            Text("Shriyabh8")
-            Text("sravyaaan")
-            Text("Shriyad")
-        }
+        NavigationView {
+            VStack{
+                Text("This is the root view")
+                    .font(.title)
+                    .fontWeight(.black)
+                    .padding(.top)
+                NavigationLink(destination: MovieQuiz())
+                         {
+                    Text("Movie Quiz")
+                             .padding(.top) }
+                NavigationLink(destination: Trivia())
+                         {
+                    Text("Trivia")
+                             .padding(.top) }
+                }
+            }
     }
 }
 

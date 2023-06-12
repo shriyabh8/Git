@@ -11,6 +11,8 @@
 		3332BBD82A377A290010DC62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3332BBD72A377A290010DC62 /* ContentView.swift */; };
 		3332BBDA2A377A2B0010DC62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3332BBD92A377A2B0010DC62 /* Assets.xcassets */; };
 		3332BBDD2A377A2B0010DC62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3332BBDC2A377A2B0010DC62 /* Preview Assets.xcassets */; };
+		3332BBE42A379AA40010DC62 /* MovieQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3332BBE32A379AA40010DC62 /* MovieQuiz.swift */; };
+		3332BBE62A379AD30010DC62 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3332BBE52A379AD30010DC62 /* Trivia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3332BBD72A377A290010DC62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3332BBD92A377A2B0010DC62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3332BBDC2A377A2B0010DC62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3332BBE32A379AA40010DC62 /* MovieQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieQuiz.swift; sourceTree = "<group>"; };
+		3332BBE52A379AD30010DC62 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				3332BBD52A377A290010DC62 /* GitApp.swift */,
 				3332BBD72A377A290010DC62 /* ContentView.swift */,
+				3332BBE52A379AD30010DC62 /* Trivia.swift */,
+				3332BBE32A379AA40010DC62 /* MovieQuiz.swift */,
 				3332BBD92A377A2B0010DC62 /* Assets.xcassets */,
 				3332BBDB2A377A2B0010DC62 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3332BBD82A377A290010DC62 /* ContentView.swift in Sources */,
+				3332BBE42A379AA40010DC62 /* MovieQuiz.swift in Sources */,
+				3332BBE62A379AD30010DC62 /* Trivia.swift in Sources */,
 				3332BBD62A377A290010DC62 /* GitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
