@@ -10,19 +10,50 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            VStack{
-                Text("This is the root view")
-                    .font(.title)
-                    .fontWeight(.black)
-                    .padding(.top)
-                NavigationLink(destination: MovieQuiz())
-                         {
-                    Text("Movie Quiz")
-                             .padding(.top) }
-                NavigationLink(destination: Trivia())
-                         {
-                    Text("Trivia")
-                             .padding(.top) }
+        
+            ZStack{
+                Color.yellow
+                    .ignoresSafeArea()
+
+                VStack{
+
+                    Text("Welcome to Motion")
+                        .font(.largeTitle)
+                        .foregroundColor(.black)
+                        .fontWeight(.heavy)
+                        .padding(.top)
+                        .font(.callout)
+                    
+                    Image("popcorn")
+                        .resizable(capInsets: EdgeInsets(), resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                        .padding()
+                        .padding()
+                        .frame(width: 300.0, height: 250.0)
+                        
+                    NavigationLink(destination: MovieQuiz())
+                             {
+                        Text("Movie Quiz")
+                                  }
+                             .font(.title)
+                             .foregroundColor(.black)
+                             .buttonStyle(.borderedProminent)
+                             .tint(.indigo)
+                             .padding()
+                             .padding()
+
+                    NavigationLink(destination: Trivia())
+                             {
+                        Text("Trivia")
+        
+                             }
+                             
+                             .font(.title)
+                             .foregroundColor(.black)
+                             .buttonStyle(.borderedProminent)
+                             .tint(.red)
+                
+                }
                 }
             }
     }
