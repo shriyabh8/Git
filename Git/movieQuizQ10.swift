@@ -15,7 +15,7 @@ struct movieQuizQ10: View {
             Text("How would your friends describe you?")
                 .font(.title)
                 .fontWeight(.bold)
-            Image("Q4")
+            Image("Q10")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
                 .padding()

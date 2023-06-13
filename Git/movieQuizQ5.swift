@@ -15,7 +15,7 @@ struct movieQuizQ5: View {
             Text("What is your favorite classic movie? ")
                 .font(.title)
                 .fontWeight(.bold)
-                Image("Q4")
+                Image("Q5")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
                     .padding()

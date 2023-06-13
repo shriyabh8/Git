@@ -15,7 +15,7 @@ struct movieQuizQ9: View {
             Text("Who is your favorite music artist?")
                 .font(.title)
                 .fontWeight(.bold)
-                Image("Q4")
+                Image("Q9")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
                     .padding()

@@ -15,7 +15,7 @@ struct movieQuizQ8: View {
             Text("What is your favorite Disney Movie")
                 .font(.title)
                 .fontWeight(.bold)
-                Image("Q4")
+                Image("Q8")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
                     .padding()

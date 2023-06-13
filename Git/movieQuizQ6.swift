@@ -15,7 +15,7 @@ struct movieQuizQ6: View {
             Text("If you were a Barbie movie, which one would you be? ")
                 .font(.title)
                 .fontWeight(.bold)
-                Image("Q4")
+                Image("Q6")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
                     .padding()
