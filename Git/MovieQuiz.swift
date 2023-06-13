@@ -29,35 +29,35 @@ struct MovieQuiz: View {
                     result = "Action"
                 }
                 .font(.title2)
-                .tint(.red)
+                .tint(Color(hue: 1.0, saturation: 0.386, brightness: 0.799))
                 .buttonStyle(.borderedProminent)
                 
                 Button("Romance"){
                     result = "Romance"
                 }
                 .font(.title2)
-                .tint(.indigo)
+                .tint(Color(hue: 0.571, saturation: 0.425, brightness: 0.73))
                 .buttonStyle(.borderedProminent)
                 
                 Button("Comedy"){
                     result = "Comedy"
                 }
                 .font(.title2)
-                .tint(.yellow)
+                .tint(Color(hue: 0.132, saturation: 0.462, brightness: 0.895))
                 .buttonStyle(.borderedProminent)
                 
                 Button("Drama"){
                     result = "Drama"
                 }
                 .font(.title2)
-                .tint(.red)
+                .tint(Color(hue: 1.0, saturation: 0.386, brightness: 0.799))
                 .buttonStyle(.borderedProminent)
                 
                 Button("Horror"){
                     result = "Horror"
                 }
                 .font(.title2)
-                .tint(.indigo)
+                .tint(Color(hue: 0.571, saturation: 0.425, brightness: 0.73))
                 .buttonStyle(.borderedProminent)
                 
                 NavigationLink(destination: movieQuizQ2()){
@@ -66,9 +66,10 @@ struct MovieQuiz: View {
                 }
                 
                 .font(.title2)
-                .tint(.yellow)
                 .buttonStyle(.borderedProminent)
+               
                 .padding()
+                .tint(Color(hue: 0.132, saturation: 0.462, brightness: 0.895))
                 
             }
             

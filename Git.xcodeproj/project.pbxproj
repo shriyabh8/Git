@@ -13,6 +13,20 @@
 		3332BBDD2A377A2B0010DC62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3332BBDC2A377A2B0010DC62 /* Preview Assets.xcassets */; };
 		3332BBE42A379AA40010DC62 /* MovieQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3332BBE32A379AA40010DC62 /* MovieQuiz.swift */; };
 		3332BBE62A379AD30010DC62 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3332BBE52A379AD30010DC62 /* Trivia.swift */; };
+		3B3AA9B52A382DEC00DA2370 /* trivia3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3AA9B42A382DEC00DA2370 /* trivia3.swift */; };
+		3B455E2D2A381E05007AADAA /* trivia2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B455E2C2A381E05007AADAA /* trivia2.swift */; };
+		3BD994E02A382F4A00FA1622 /* trivia4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD994DF2A382F4A00FA1622 /* trivia4.swift */; };
+		3BD994E22A382FF400FA1622 /* trivia5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD994E12A382FF400FA1622 /* trivia5.swift */; };
+		3BD994E42A38307400FA1622 /* trivia6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD994E32A38307400FA1622 /* trivia6.swift */; };
+		3BD994E62A3830F700FA1622 /* trivia7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD994E52A3830F700FA1622 /* trivia7.swift */; };
+		3BD994E82A3831EF00FA1622 /* trivia8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD994E72A3831EF00FA1622 /* trivia8.swift */; };
+		3BD994EA2A38328900FA1622 /* trivia9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD994E92A38328900FA1622 /* trivia9.swift */; };
+		3BD994EC2A3832F100FA1622 /* trivia10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD994EB2A3832F100FA1622 /* trivia10.swift */; };
+		3BD994EE2A38336800FA1622 /* trivia11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD994ED2A38336800FA1622 /* trivia11.swift */; };
+		3BD994F02A3833F900FA1622 /* trivia12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD994EF2A3833F900FA1622 /* trivia12.swift */; };
+		3BD994F42A38351900FA1622 /* trivia13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD994F32A38351900FA1622 /* trivia13.swift */; };
+		3BD994F62A38358200FA1622 /* trivia14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD994F52A38358200FA1622 /* trivia14.swift */; };
+		3BD994F82A3835F200FA1622 /* trivia15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD994F72A3835F200FA1622 /* trivia15.swift */; };
 		44A631642A37E3EF00A8883C /* movieQuizQ2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A631632A37E3EF00A8883C /* movieQuizQ2.swift */; };
 		44A631662A37E89B00A8883C /* movieQuizQ3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A631652A37E89B00A8883C /* movieQuizQ3.swift */; };
 /* End PBXBuildFile section */
@@ -25,6 +39,20 @@
 		3332BBDC2A377A2B0010DC62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3332BBE32A379AA40010DC62 /* MovieQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieQuiz.swift; sourceTree = "<group>"; };
 		3332BBE52A379AD30010DC62 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		3B3AA9B42A382DEC00DA2370 /* trivia3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivia3.swift; sourceTree = "<group>"; };
+		3B455E2C2A381E05007AADAA /* trivia2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivia2.swift; sourceTree = "<group>"; };
+		3BD994DF2A382F4A00FA1622 /* trivia4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivia4.swift; sourceTree = "<group>"; };
+		3BD994E12A382FF400FA1622 /* trivia5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivia5.swift; sourceTree = "<group>"; };
+		3BD994E32A38307400FA1622 /* trivia6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivia6.swift; sourceTree = "<group>"; };
+		3BD994E52A3830F700FA1622 /* trivia7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivia7.swift; sourceTree = "<group>"; };
+		3BD994E72A3831EF00FA1622 /* trivia8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivia8.swift; sourceTree = "<group>"; };
+		3BD994E92A38328900FA1622 /* trivia9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivia9.swift; sourceTree = "<group>"; };
+		3BD994EB2A3832F100FA1622 /* trivia10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivia10.swift; sourceTree = "<group>"; };
+		3BD994ED2A38336800FA1622 /* trivia11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivia11.swift; sourceTree = "<group>"; };
+		3BD994EF2A3833F900FA1622 /* trivia12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivia12.swift; sourceTree = "<group>"; };
+		3BD994F32A38351900FA1622 /* trivia13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivia13.swift; sourceTree = "<group>"; };
+		3BD994F52A38358200FA1622 /* trivia14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivia14.swift; sourceTree = "<group>"; };
+		3BD994F72A3835F200FA1622 /* trivia15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivia15.swift; sourceTree = "<group>"; };
 		44A631632A37E3EF00A8883C /* movieQuizQ2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieQuizQ2.swift; sourceTree = "<group>"; };
 		44A631652A37E89B00A8883C /* movieQuizQ3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieQuizQ3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +90,20 @@
 				3332BBD52A377A290010DC62 /* GitApp.swift */,
 				3332BBD72A377A290010DC62 /* ContentView.swift */,
 				3332BBE52A379AD30010DC62 /* Trivia.swift */,
+				3B455E2C2A381E05007AADAA /* trivia2.swift */,
+				3B3AA9B42A382DEC00DA2370 /* trivia3.swift */,
+				3BD994DF2A382F4A00FA1622 /* trivia4.swift */,
+				3BD994E12A382FF400FA1622 /* trivia5.swift */,
+				3BD994E32A38307400FA1622 /* trivia6.swift */,
+				3BD994E52A3830F700FA1622 /* trivia7.swift */,
+				3BD994E72A3831EF00FA1622 /* trivia8.swift */,
+				3BD994E92A38328900FA1622 /* trivia9.swift */,
+				3BD994EB2A3832F100FA1622 /* trivia10.swift */,
+				3BD994ED2A38336800FA1622 /* trivia11.swift */,
+				3BD994EF2A3833F900FA1622 /* trivia12.swift */,
+				3BD994F32A38351900FA1622 /* trivia13.swift */,
+				3BD994F52A38358200FA1622 /* trivia14.swift */,
+				3BD994F72A3835F200FA1622 /* trivia15.swift */,
 				3332BBE32A379AA40010DC62 /* MovieQuiz.swift */,
 				44A631632A37E3EF00A8883C /* movieQuizQ2.swift */,
 				44A631652A37E89B00A8883C /* movieQuizQ3.swift */,
@@ -151,10 +193,24 @@
 			files = (
 				44A631642A37E3EF00A8883C /* movieQuizQ2.swift in Sources */,
 				3332BBD82A377A290010DC62 /* ContentView.swift in Sources */,
+				3BD994E62A3830F700FA1622 /* trivia7.swift in Sources */,
+				3BD994F02A3833F900FA1622 /* trivia12.swift in Sources */,
+				3BD994E02A382F4A00FA1622 /* trivia4.swift in Sources */,
+				3BD994E42A38307400FA1622 /* trivia6.swift in Sources */,
+				3B3AA9B52A382DEC00DA2370 /* trivia3.swift in Sources */,
 				3332BBE42A379AA40010DC62 /* MovieQuiz.swift in Sources */,
+				3BD994F62A38358200FA1622 /* trivia14.swift in Sources */,
+				3B455E2D2A381E05007AADAA /* trivia2.swift in Sources */,
+				3BD994EC2A3832F100FA1622 /* trivia10.swift in Sources */,
 				3332BBE62A379AD30010DC62 /* Trivia.swift in Sources */,
+				3BD994EE2A38336800FA1622 /* trivia11.swift in Sources */,
 				3332BBD62A377A290010DC62 /* GitApp.swift in Sources */,
+				3BD994EA2A38328900FA1622 /* trivia9.swift in Sources */,
+				3BD994F42A38351900FA1622 /* trivia13.swift in Sources */,
+				3BD994E22A382FF400FA1622 /* trivia5.swift in Sources */,
 				44A631662A37E89B00A8883C /* movieQuizQ3.swift in Sources */,
+				3BD994F82A3835F200FA1622 /* trivia15.swift in Sources */,
+				3BD994E82A3831EF00FA1622 /* trivia8.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
