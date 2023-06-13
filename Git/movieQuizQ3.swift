@@ -66,6 +66,8 @@ struct movieQuizQ3: View {
                 .tint(Color(hue: 0.132, saturation: 0.462, brightness: 0.895))
                 .buttonStyle(.borderedProminent)
                 .padding()
+            
+            Text("\(outcome)")
         }
     }
 }
