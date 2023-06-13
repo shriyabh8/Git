@@ -8,8 +8,58 @@
 import SwiftUI
 
 struct movieQuizQ2: View {
+    @State private var age = " "
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("What age group are you part of?")
+                .font(.title)
+                .fontWeight(.bold)
+            Image("Movie Chairs")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+                .padding()
+            
+            Button("child < 5") {
+                age = "Child"
+            }
+            .font(.title2)
+            .tint(.red)
+            .buttonStyle(.borderedProminent)
+            
+            Button("kid < 13") {
+                age = "Kid"
+            }
+            .font(.title2)
+            .tint(.indigo)
+            .buttonStyle(.borderedProminent)
+            
+            Button("teen < 18") {
+                age = "Teen"
+            }
+            .font(.title2)
+            .tint(.yellow)
+            .buttonStyle(.borderedProminent)
+            
+            Button("adult > 18") {
+                age = "adult"
+            }
+            .font(.title2)
+            .tint(.red)
+            .buttonStyle(.borderedProminent)
+            
+            NavigationLink(destination: movieQuizQ3()){
+                Text("Next")
+                
+            }
+            
+            .font(.title2)
+            .tint(.indigo)
+            .buttonStyle(.borderedProminent)
+            .padding()
+        }
+        
+        
     }
 }
 

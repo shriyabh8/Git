@@ -17,10 +17,10 @@ struct MovieQuiz: View {
             VStack {
                
                 
-                Text("What is your favorite Genre?")
+                Text("What is your favorite genre?")
                     .font(.title)
                     .fontWeight(.bold)
-                Image("Movie Chairs")
+                Image("Q2")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
                     .padding()
@@ -68,6 +68,7 @@ struct MovieQuiz: View {
                 .font(.title2)
                 .tint(.yellow)
                 .buttonStyle(.borderedProminent)
+                .padding()
                 
             }
             
