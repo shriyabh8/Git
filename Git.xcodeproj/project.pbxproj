@@ -29,6 +29,8 @@
 		3BD994F82A3835F200FA1622 /* trivia15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD994F72A3835F200FA1622 /* trivia15.swift */; };
 		44A631642A37E3EF00A8883C /* movieQuizQ2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A631632A37E3EF00A8883C /* movieQuizQ2.swift */; };
 		44A631662A37E89B00A8883C /* movieQuizQ3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A631652A37E89B00A8883C /* movieQuizQ3.swift */; };
+		44A631682A38B52900A8883C /* movieQuizQ4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A631672A38B52900A8883C /* movieQuizQ4.swift */; };
+		44A6316A2A38B8F200A8883C /* movieQuizQ5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A631692A38B8F200A8883C /* movieQuizQ5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		3BD994F72A3835F200FA1622 /* trivia15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivia15.swift; sourceTree = "<group>"; };
 		44A631632A37E3EF00A8883C /* movieQuizQ2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieQuizQ2.swift; sourceTree = "<group>"; };
 		44A631652A37E89B00A8883C /* movieQuizQ3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieQuizQ3.swift; sourceTree = "<group>"; };
+		44A631672A38B52900A8883C /* movieQuizQ4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieQuizQ4.swift; sourceTree = "<group>"; };
+		44A631692A38B8F200A8883C /* movieQuizQ5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieQuizQ5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				3332BBE32A379AA40010DC62 /* MovieQuiz.swift */,
 				44A631632A37E3EF00A8883C /* movieQuizQ2.swift */,
 				44A631652A37E89B00A8883C /* movieQuizQ3.swift */,
+				44A631672A38B52900A8883C /* movieQuizQ4.swift */,
+				44A631692A38B8F200A8883C /* movieQuizQ5.swift */,
 				3332BBD92A377A2B0010DC62 /* Assets.xcassets */,
 				3332BBDB2A377A2B0010DC62 /* Preview Content */,
 			);
@@ -192,11 +198,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				44A631642A37E3EF00A8883C /* movieQuizQ2.swift in Sources */,
+				44A631682A38B52900A8883C /* movieQuizQ4.swift in Sources */,
 				3332BBD82A377A290010DC62 /* ContentView.swift in Sources */,
 				3BD994E62A3830F700FA1622 /* trivia7.swift in Sources */,
 				3BD994F02A3833F900FA1622 /* trivia12.swift in Sources */,
 				3BD994E02A382F4A00FA1622 /* trivia4.swift in Sources */,
 				3BD994E42A38307400FA1622 /* trivia6.swift in Sources */,
+				44A6316A2A38B8F200A8883C /* movieQuizQ5.swift in Sources */,
 				3B3AA9B52A382DEC00DA2370 /* trivia3.swift in Sources */,
 				3332BBE42A379AA40010DC62 /* MovieQuiz.swift in Sources */,
 				3BD994F62A38358200FA1622 /* trivia14.swift in Sources */,

@@ -54,7 +54,7 @@ struct movieQuizQ2: View {
             }
             
             .font(.title2)
-            .tint(.indigo)
+            .tint(Color(hue: 0.571, saturation: 0.425, brightness: 0.73))
             .buttonStyle(.borderedProminent)
             .padding()
         }
