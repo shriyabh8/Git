@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct movieQuizQ4: View {
-    @State private var outcome = " "
+    @State private var outcome = ""
+    
     var body: some View {
         VStack {
             Text("What is your favorite movie snack?")
@@ -19,6 +20,7 @@ struct movieQuizQ4: View {
                     .aspectRatio(contentMode: .fit)
                     .padding()
                 
+            
                 Button("Popcorn") {
                   outcome = "🍿"
                 }

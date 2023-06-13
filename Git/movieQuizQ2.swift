@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct movieQuizQ2: View {
-    @State private var age = " "
+    @State private var age = ""
     
     var body: some View {
         VStack {

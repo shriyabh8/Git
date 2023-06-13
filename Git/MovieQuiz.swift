@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MovieQuiz: View {
-    @State private var result = " "
+    @State private var result = ""
     var body: some View {
         ZStack {
             Color(.white)

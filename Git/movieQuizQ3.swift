@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct movieQuizQ3: View {
-    @State private var outcome = " "
+    @State private var outcome = ""
+    
     var body: some View {
         VStack {
             Text("Who is your favorite actor?")
@@ -18,7 +19,8 @@ struct movieQuizQ3: View {
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
                     .padding()
-                
+    
+        
                 Button("Tom Cruise") {
                   outcome = "🍿"
                 }
