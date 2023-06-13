@@ -1,5 +1,5 @@
 //
-//  movieQuizQ4.swift
+//  movieQuizQ8.swift
 //  Git
 //
 //  Created by Shriya Dharmendran on 6/13/23.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct movieQuizQ4: View {
+struct movieQuizQ8: View {
     @State private var outcome = ""
     
     var body: some View {
         VStack {
-            Text("What is your favorite movie snack?")
+            Text("What is your favorite Disney Movie")
                 .font(.title)
                 .fontWeight(.bold)
                 Image("Q4")
@@ -21,29 +21,37 @@ struct movieQuizQ4: View {
                     .padding()
                 
             
-                Button("Popcorn") {
-                  outcome = "🍿"
+                Button("Tangled") {
+                  outcome = "☀️"
                 }
                 .font(.title2)
                 .tint(.gray)
                 .buttonStyle(.borderedProminent)
                 
-                Button("M&M") {
-                   outcome = "🍬"
+                Button("Ratatouille") {
+                   outcome = "🐀"
                 }
                 .font(.title2)
                 .tint(.gray)
                 .buttonStyle(.borderedProminent)
                 
-                Button("Ice Cream") {
-                    outcome = "🍦"
+                Button("A Bug's Life") {
+                    outcome = "🐜"
                 }
                 .font(.title2)
                 .tint(.gray)
                 .buttonStyle(.borderedProminent)
                 
             
-                NavigationLink(destination: movieQuizQ5()){
+                Button("Frozen") {
+                    outcome = "❄️"
+                }
+                .font(.title2)
+                .tint(.gray)
+                .buttonStyle(.borderedProminent)
+                
+        
+                NavigationLink(destination: movieQuizQ9()){
                     Text("Next")
                     
                 }
@@ -51,15 +59,15 @@ struct movieQuizQ4: View {
                 .tint(.gray)
                 .buttonStyle(.borderedProminent)
                 .padding()
-            
+
             Text("\(outcome)")
         }
+       
     }
 }
 
-
-struct movieQuizQ4_Previews: PreviewProvider {
+struct movieQuizQ8_Previews: PreviewProvider {
     static var previews: some View {
-        movieQuizQ4()
+        movieQuizQ8()
     }
 }

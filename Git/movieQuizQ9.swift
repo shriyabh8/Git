@@ -1,5 +1,5 @@
 //
-//  movieQuizQ4.swift
+//  movieQuizQ9.swift
 //  Git
 //
 //  Created by Shriya Dharmendran on 6/13/23.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct movieQuizQ4: View {
+struct movieQuizQ9: View {
     @State private var outcome = ""
     
     var body: some View {
         VStack {
-            Text("What is your favorite movie snack?")
+            Text("Who is your favorite music artist?")
                 .font(.title)
                 .fontWeight(.bold)
                 Image("Q4")
@@ -21,45 +21,59 @@ struct movieQuizQ4: View {
                     .padding()
                 
             
-                Button("Popcorn") {
-                  outcome = "🍿"
+                Button("Taylor Swift") {
+                  outcome = "🪩"
                 }
                 .font(.title2)
                 .tint(.gray)
                 .buttonStyle(.borderedProminent)
                 
-                Button("M&M") {
-                   outcome = "🍬"
+                Button("Lana Del Rey") {
+                   outcome = "🌹"
                 }
                 .font(.title2)
                 .tint(.gray)
                 .buttonStyle(.borderedProminent)
                 
-                Button("Ice Cream") {
-                    outcome = "🍦"
+                Button("Drake") {
+                    outcome = "🎤"
                 }
                 .font(.title2)
                 .tint(.gray)
                 .buttonStyle(.borderedProminent)
                 
             
-                NavigationLink(destination: movieQuizQ5()){
+                Button("SZA") {
+                    outcome = "🎵"
+                }
+                .font(.title2)
+                .tint(.gray)
+                .buttonStyle(.borderedProminent)
+            
+                Button("Harry Styles") {
+                    outcome = "🥝"
+                }
+                .font(.title2)
+                .tint(.gray)
+                .buttonStyle(.borderedProminent)
+                
+        
+                NavigationLink(destination: movieQuizQ10()){
                     Text("Next")
-                    
                 }
                 .font(.title2)
                 .tint(.gray)
                 .buttonStyle(.borderedProminent)
                 .padding()
-            
+
             Text("\(outcome)")
         }
+      
     }
 }
 
-
-struct movieQuizQ4_Previews: PreviewProvider {
+struct movieQuizQ9_Previews: PreviewProvider {
     static var previews: some View {
-        movieQuizQ4()
+        movieQuizQ9()
     }
 }

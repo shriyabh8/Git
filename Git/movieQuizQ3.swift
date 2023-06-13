@@ -22,24 +22,24 @@ struct movieQuizQ3: View {
     
         
                 Button("Tom Cruise") {
-                  outcome = "🍿"
+                  outcome = "🛳️"
                 }
                 .font(.title2)
-                .tint(Color(hue: 1.0, saturation: 0.386, brightness: 0.799))
+                .tint(.gray)
                 .buttonStyle(.borderedProminent)
                 
                 Button("The Rock") {
                    outcome = "🪨"
                 }
                 .font(.title2)
-                .tint(Color(hue: 0.571, saturation: 0.425, brightness: 0.73))
+                .tint(.gray)
                 .buttonStyle(.borderedProminent)
                 
                 Button("Vin Diesel") {
                     outcome = "🏎️"
                 }
                 .font(.title2)
-                .tint(Color(hue: 0.132, saturation: 0.462, brightness: 0.895))
+                .tint(.gray)
                 .buttonStyle(.borderedProminent)
                 
                 Button("Angelina Jolie") {
@@ -47,7 +47,7 @@ struct movieQuizQ3: View {
                    
                 }
                 .font(.title2)
-                .tint(Color(hue: 1.0, saturation: 0.386, brightness: 0.799))
+                .tint(.gray)
                 .buttonStyle(.borderedProminent)
                 
             Button("Naomi Scott") {
@@ -55,7 +55,7 @@ struct movieQuizQ3: View {
                
             }
             .font(.title2)
-            .tint(Color(hue: 0.571, saturation: 0.425, brightness: 0.73))
+            .tint(.gray)
             .buttonStyle(.borderedProminent)
             
                 NavigationLink(destination: movieQuizQ4()){
@@ -63,7 +63,7 @@ struct movieQuizQ3: View {
                     
                 }
                 .font(.title2)
-                .tint(Color(hue: 0.132, saturation: 0.462, brightness: 0.895))
+                .tint(.gray)
                 .buttonStyle(.borderedProminent)
                 .padding()
             

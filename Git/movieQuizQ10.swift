@@ -1,72 +1,73 @@
 //
-//  movieQuizQ2.swift
+//  movieQuizQ10.swift
 //  Git
 //
-//  Created by Shriya Dharmendran on 6/12/23.
+//  Created by Shriya Dharmendran on 6/13/23.
 //
 
 import SwiftUI
 
-struct movieQuizQ2: View {
-    @State private var age = ""
+struct movieQuizQ10: View {
+    @State private var outcome = ""
     
     var body: some View {
         VStack {
-            Text("What age group are you part of?")
+            Text("How would your friends describe you?")
                 .font(.title)
                 .fontWeight(.bold)
-            Image("Movie Chairs")
+            Image("Q4")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
                 .padding()
             
-            Button("child < 5") {
-                age = "Child"
+            
+            Button("Loyal") {
+                outcome = "💗"
             }
             .font(.title2)
             .tint(.gray)
             .buttonStyle(.borderedProminent)
             
-            Button("kid < 13") {
-                age = "Kid"
+            Button("Creative") {
+                outcome = "🎨"
             }
             .font(.title2)
             .tint(.gray)
             .buttonStyle(.borderedProminent)
             
-            Button("teen < 18") {
-                age = "Teen"
+            Button("Confident") {
+                outcome = "😇"
             }
             .font(.title2)
             .tint(.gray)
             .buttonStyle(.borderedProminent)
             
-            Button("adult > 18") {
-                age = "adult"
+            
+            Button("Quiet") {
+                outcome = "🤐"
             }
             .font(.title2)
             .tint(.gray)
             .buttonStyle(.borderedProminent)
             
-            NavigationLink(destination: movieQuizQ3()){
+            
+            NavigationLink(destination: results()){
                 Text("Next")
-                
             }
-            
             .font(.title2)
             .tint(.gray)
             .buttonStyle(.borderedProminent)
             .padding()
             
-            Text("\(age)")
-        }
-       
-        
-    }
-}
+            
+            Text("\(outcome)")
 
-struct movieQuizQ2_Previews: PreviewProvider {
-    static var previews: some View {
-        movieQuizQ2()
+            
+        }
+    }
+    struct movieQuizQ10_Previews: PreviewProvider {
+        static var previews: some View {
+            movieQuizQ10()
+        }
     }
 }
