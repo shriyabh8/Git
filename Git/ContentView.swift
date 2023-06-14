@@ -40,7 +40,7 @@ struct ContentView: View {
                              .font(.title)
                              .foregroundColor(.black)
                              .buttonStyle(.borderedProminent)
-                             .tint(Color(hue: 0.571, saturation: 0.167, brightness: 0.897))
+                             .tint(Color(hue: 1.0, saturation: 0.305, brightness: 0.834))
                              .padding()
                              .padding()
 
@@ -53,7 +53,7 @@ struct ContentView: View {
                              .font(.title)
                              .foregroundColor(.black)
                              .buttonStyle(.borderedProminent)
-                             .tint(.red)
+                             .tint(Color(red: 0.696, green: 0.772, blue: 0.838))
                 
                 }
                 }
