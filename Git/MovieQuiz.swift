@@ -11,7 +11,9 @@ struct MovieQuiz: View {
     @State private var result = ""
     var body: some View {
         ZStack {
-            Color(.white)
+//            Color(.white)
+//                .ignoresSafeArea()
+            LinearGradient(colors: [Color("butter"), Color("cream")], startPoint: .top, endPoint: .bottom)
                 .ignoresSafeArea()
         
             VStack {
