@@ -12,6 +12,7 @@ struct Trivia: View {
     @State private var output = ""
     
     var body: some View {
+        NavigationView{
             VStack {
                 Text("What actor plays the role of Iron Man?")
                     .font(.largeTitle)
@@ -42,16 +43,22 @@ struct Trivia: View {
                 .padding(.top)
                 .tint(Color(hue: 0.132, saturation: 0.462, brightness: 0.895))
                 
+            
+                
                 Text("\(output)")
+                
+                NavigationLink(destination: trivia2()) {
+                    Text("Next")
+                }
+               
                    
             }
             .padding(.top, 5.0)
             .font(.title)
             
-            
         }
     }
-
+}
 
 struct Trivia_Previews: PreviewProvider {
     static var previews: some View {

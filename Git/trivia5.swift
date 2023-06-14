@@ -43,8 +43,14 @@ struct trivia5: View {
             .tint(Color(hue: 0.132, saturation: 0.462, brightness: 0.895))
             
             Text("\(output)")
+            
+            NavigationLink(destination: trivia6()) {
+                Text("Next")
+            }
                
         }
+        
+        
         .padding(.top, 5.0)
         .font(.title)
         
