@@ -12,7 +12,9 @@ struct ContentView: View {
         NavigationView {
         
             ZStack{
-                Color.yellow
+//                Color.yellow
+//                    .ignoresSafeArea()
+                LinearGradient(colors: [Color("butter"), Color("cream")], startPoint: .top, endPoint: .bottom)
                     .ignoresSafeArea()
 
                 VStack{
