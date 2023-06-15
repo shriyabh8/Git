@@ -13,12 +13,16 @@ struct trivia14: View {
     
     var body: some View {
         VStack {
-            Text("What year was Avatar released?")
+            Text("What year was Avatar released?").font(.custom("Comfortaa-Light", size: 25))
+            
 
 
                 .font(.largeTitle)
+                .multilineTextAlignment(.center)
                 .padding()
-            
+                .background(
+                    Image("triviabg")
+                    )
             Image("T14")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)

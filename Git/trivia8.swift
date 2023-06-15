@@ -13,11 +13,16 @@ struct trivia8: View {
     
     var body: some View {
         VStack {
-            Text("Which of the below is not a name of a minion?")
+            Text("Which of the below is not a name of a minion?").font(.custom("Comfortaa-Light", size: 25))
+           
 
 
                 .font(.largeTitle)
+                .multilineTextAlignment(.center)
                 .padding()
+                .background(
+                    Image("triviabg")
+                    )
             
             Image("T8")
                 .resizable(resizingMode: .stretch)

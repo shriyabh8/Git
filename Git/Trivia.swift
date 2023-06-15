@@ -12,16 +12,32 @@ struct Trivia: View {
     @State private var output = ""
     
     var body: some View {
+        
             VStack {
-                Text("What actor plays the role of Iron Man?")
+                Text("What actor plays the role of Iron Man?").font(.custom("Comfortaa-Light", size: 25))
                     .font(.largeTitle)
+                    .multilineTextAlignment(.center)
                     .padding()
+                    .background(
+                        Image("triviabg")
+                            
+                            .aspectRatio(contentMode: .fill)
+                    )
+            
+                        
+                                        
+                           
+                            
+                        
+                    
+                
                 Image("T1")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
                     .padding()
                 
                 //options
+                
                 Button("Tom Holland") {
                     output = "Incorrect ❌"
                 }

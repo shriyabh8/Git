@@ -14,11 +14,16 @@ struct trivia13: View {
     
     var body: some View {
         VStack {
-            Text("What is the name of the black dragon in how to train your dragon?")
+            Text("What is the name of the black dragon in how to train your dragon?").font(.custom("Comfortaa-Light", size: 25))
+            
 
 
                 .font(.largeTitle)
+                .multilineTextAlignment(.center)
                 .padding()
+                .background(
+                    Image("triviabg")
+                    )
             
             Image("T13")
                 .resizable(resizingMode: .stretch)

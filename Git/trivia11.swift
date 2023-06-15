@@ -13,11 +13,16 @@ struct trivia11: View {
     
     var body: some View {
         VStack {
-            Text("When was Coraline released?")
+            Text("When was Coraline released?").font(.custom("Comfortaa-Light", size: 25))
+            
 
 
                 .font(.largeTitle)
+                .multilineTextAlignment(.center)
                 .padding()
+                .background(
+                    Image("triviabg")
+                    )
             
             Image("T11")
                 .resizable(resizingMode: .stretch)

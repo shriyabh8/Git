@@ -13,9 +13,14 @@ struct trivia2: View {
     
     var body: some View {
             VStack {
-                Text("Who is Harry Potter's best friend in the first movie ?")
+                Text("Who is Harry Potter's best friend in the first movie?").font(.custom("Comfortaa-Light", size: 25))
+                
                     .font(.largeTitle)
+                    .multilineTextAlignment(.center)
                     .padding()
+                    .background(
+                        Image("triviabg")
+                        )
                 Image("T2")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)

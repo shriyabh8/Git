@@ -12,21 +12,27 @@ struct ContentView: View {
         NavigationView {
         
             ZStack{
-//                Color.yellow
+//                LinearGradient(colors: [Color("butter"), Color("cream")], startPoint: .top, endPoint: .bottom)
 //                    .ignoresSafeArea()
-                LinearGradient(colors: [Color("butter"), Color("cream")], startPoint: .top, endPoint: .bottom)
-                    .ignoresSafeArea()
-
+                
                 VStack{
 
-                    Text("Motion")
+                    Text("Motion.").font(.custom("Mitr-Regular", size: 30))
                         .font(.largeTitle)
                         .foregroundColor(.black)
                         .fontWeight(.heavy)
                         .padding(.top)
                         .font(.callout)
+                        
+                        .background(
+                            Image("motion")
+                                
+                                .aspectRatio(contentMode: .fill)
+                                
+                            
+                        )
                     
-                    Image("popcorn")
+                    Image("homeicon")
                         .resizable(capInsets: EdgeInsets(), resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
                         .padding()
@@ -35,8 +41,19 @@ struct ContentView: View {
                         
                     NavigationLink(destination: MovieQuiz())
                              {
-                        Text("Movie Quiz")
-                                  }
+                               
+                                 
+                                 Text("Movie Quiz").font(.custom("Nunito-Light", size: 25))
+                                                                  }
+                                                             .font(.title)
+                                                             .foregroundColor(.black)
+                                                             .buttonStyle(.borderedProminent)
+                                                             .tint(Color(hue: 1.0, saturation: 0.305, brightness: 0.834))
+                                                             .padding()
+                                                             .padding()
+
+                        
+                                  
                              .font(.title)
                              .foregroundColor(.black)
                              .buttonStyle(.borderedProminent)
@@ -46,7 +63,16 @@ struct ContentView: View {
 
                     NavigationLink(destination: Trivia())
                              {
-                        Text("Trivia")
+                                 NavigationLink(destination: Trivia())
+                                                              {
+                                                                  Text("Trivia").font(.custom("Nunito-Light", size: 25))
+                                         
+                                                              }
+                                                              .font(.title)
+                                                              .foregroundColor(.black)
+                                                              .buttonStyle(.borderedProminent)
+                                                              .tint(Color(red: 0.696, green: 0.772, blue: 0.838))
+                                
         
                              }
                              

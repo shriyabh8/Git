@@ -13,11 +13,16 @@ struct trivia7: View {
 
     var body: some View {
         VStack {
-            Text("What is the main character's name in Mean Girls?")
+            Text("What is the main character's name in Mean Girls?").font(.custom("Comfortaa-Light", size: 25))
+            
 
 
                 .font(.largeTitle)
+                .multilineTextAlignment(.center)
                 .padding()
+                .background(
+                    Image("triviabg")
+                    )
             
             Image("T7")
                 .resizable(resizingMode: .stretch)

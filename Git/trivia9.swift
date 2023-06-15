@@ -13,16 +13,20 @@ struct trivia9: View {
     
     var body: some View {
         VStack {
-            Text("Which of these princesses are a POC?")
-
-
+            Text("Which of these princesses are a POC?").font(.custom("Comfortaa-Light", size: 25))
+            
                 .font(.largeTitle)
+                .multilineTextAlignment(.center)
                 .padding()
+                .background(
+                    Image("triviabg")
+                    )
             
             Image("T9")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
                 .padding()
+                
             
             //options
             Button("Tiana") {

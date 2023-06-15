@@ -13,9 +13,14 @@ struct trivia4: View {
     
     var body: some View {
         VStack {
-            Text("Where does the movie Aladdin take place??")
+            Text("Where does the movie Aladdin take place?").font(.custom("Comfortaa-Light", size: 25))
+            
                 .font(.largeTitle)
+                .multilineTextAlignment(.center)
                 .padding()
+                .background(
+                    Image("triviabg")
+                    )
             Image("T4")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)

@@ -13,11 +13,16 @@ struct trivia15: View {
     
     var body: some View {
         VStack {
-            Text("Which of these is not another name for Barbie (in her movies)?")
+            Text("Which of these is not another name for Barbie (in her movies)?").font(.custom("Comfortaa-Light", size: 25))
+           
 
 
                 .font(.largeTitle)
+                .multilineTextAlignment(.center)
                 .padding()
+                .background(
+                    Image("triviabg")
+                    )
             
             Image("T15")
                 .resizable(resizingMode: .stretch)

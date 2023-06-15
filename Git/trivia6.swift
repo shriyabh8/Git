@@ -13,10 +13,15 @@ struct trivia6: View {
     
     var body: some View {
         VStack {
-            Text("Who is the villain in Alice in Wonderland?")
+            Text("Who is the villain in Alice in Wonderland?").font(.custom("Comfortaa-Light", size: 25))
+            
 
                 .font(.largeTitle)
+                .multilineTextAlignment(.center)
                 .padding()
+                .background(
+                    Image("triviabg")
+                    )
             
             Image("T6")
                 .resizable(resizingMode: .stretch)

@@ -72,26 +72,27 @@ struct MovieQuiz: View {
     var body: some View {
         
         ZStack {
-            //            Color(.white)
-            //                .ignoresSafeArea()
-            LinearGradient(colors: [Color("butter"), Color("cream")], startPoint: .top, endPoint: .bottom)
+                       
+            LinearGradient(colors: [Color("butter"), Color("butter")], startPoint: .top, endPoint: .bottom)
                 .ignoresSafeArea()
+            
             
             ScrollViewReader { scrollView in
                 ScrollView {
                     Text("Welcome to Movie Quiz!")
                         .font(.title)
                         .fontWeight(.bold)
+                        
                     
                     Divider()
                         .padding()
                     
                     VStack {
                         
-                        
-                        Text("What is your favorite genre?")
+                        Text("What is your favorite genre?").font(.custom("Comfortaa-Light", size: 25))
                             .font(.title)
                             .fontWeight(.bold)
+                            
                         Image("Q2")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
@@ -141,9 +142,11 @@ struct MovieQuiz: View {
                         .padding()
                     
                     VStack {
-                        Text("Who is your favorite actor?")
+                        Text("Who is your favorite actor?").font(.custom("Comfortaa-Light", size: 25))
                             .font(.title)
                             .fontWeight(.bold)
+                            
+                        
                         Image("Q3")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
@@ -196,9 +199,11 @@ struct MovieQuiz: View {
                             .padding()
                         
                         VStack {
-                            Text("What is your favorite movie snack?")
+                            Text("What is your favorite movie snack?").font(.custom("Comfortaa-Light", size: 25))
                                 .font(.title)
                                 .fontWeight(.bold)
+                                .multilineTextAlignment(.center)
+                           
                             Image("Q4")
                                 .resizable(resizingMode: .stretch)
                                 .aspectRatio(contentMode: .fit)
@@ -232,9 +237,11 @@ struct MovieQuiz: View {
                                 .padding()
                             
                             VStack {
-                                Text("What is your favorite classic movie?")
+                                Text("What is your favorite classic movie?").font(.custom("Comfortaa-Light", size: 25))
                                     .font(.title)
                                     .fontWeight(.bold)
+                                    .multilineTextAlignment(.center)
+                                
                                 Image("Q5")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
@@ -275,9 +282,12 @@ struct MovieQuiz: View {
                                     .padding()
                                 
                                 VStack {
-                                    Text("If you were a Barbie movie, which one would you be?")
+                                    Text("If you were a Barbie movie, which one would you be?").font(.custom("Comfortaa-Light", size: 25))
                                         .font(.title)
                                         .fontWeight(.bold)
+                                        .multilineTextAlignment(.center)
+                                    
+                                    
                                     Image("Q6")
                                         .resizable(resizingMode: .stretch)
                                         .aspectRatio(contentMode: .fit)
@@ -327,9 +337,12 @@ struct MovieQuiz: View {
                                         .padding()
                                     
                                     VStack {
-                                        Text("What is your favorite series?")
+                                        Text("What is your favorite series?").font(.custom("Comfortaa-Light", size: 25))
                                             .font(.title)
                                             .fontWeight(.bold)
+                                            .multilineTextAlignment(.center)
+                                        
+                                        
                                         Image("Q7")
                                             .resizable(resizingMode: .stretch)
                                             .aspectRatio(contentMode: .fit)
@@ -370,9 +383,12 @@ struct MovieQuiz: View {
                                             .padding()
                                         
                                         VStack {
-                                            Text("What is your favorite Disney Movie?")
+                                            Text("What is your favorite Disney movie?").font(.custom("Comfortaa-Light", size: 25))
                                                 .font(.title)
                                                 .fontWeight(.bold)
+                                                .multilineTextAlignment(.center)
+                                            
+                                            
                                             Image("Q8")
                                                 .resizable(resizingMode: .stretch)
                                                 .aspectRatio(contentMode: .fit)
@@ -413,9 +429,12 @@ struct MovieQuiz: View {
                                                 .padding()
                                             
                                             VStack {
-                                                Text("Who is your favorite music artist?")
+                                                Text("Who is your favorite music artist?").font(.custom("Comfortaa-Light", size: 25))
                                                     .font(.title)
                                                     .fontWeight(.bold)
+                                                    .multilineTextAlignment(.center)
+                                                
+                                                
                                                 Image("Q9")
                                                     .resizable(resizingMode: .stretch)
                                                     .aspectRatio(contentMode: .fit)
@@ -456,9 +475,12 @@ struct MovieQuiz: View {
                                                     .padding()
                                                 
                                                 VStack {
-                                                    Text("How would your friends describe you?")
+                                                    Text("How would your friends describe you?").font(.custom("Comfortaa-Light", size: 25))
                                                         .font(.title)
                                                         .fontWeight(.bold)
+                                                        .multilineTextAlignment(.center)
+                                                    
+                                                    
                                                     Image("Q10")
                                                         .resizable(resizingMode: .stretch)
                                                         .aspectRatio(contentMode: .fit)
@@ -498,9 +520,12 @@ struct MovieQuiz: View {
                                                     Divider()
                                                         .padding()
                                                     VStack {
-                                                        Text("What age group are you part of?")
+                                                        Text("What age group are you part of?").font(.custom("Comfortaa-Light", size: 25))
                                                             .font(.title)
                                                             .fontWeight(.bold)
+                                                            .multilineTextAlignment(.center)
+                                                        
+                                                        
                                                         Image("Movie Chairs")
                                                             .resizable(resizingMode: .stretch)
                                                             .aspectRatio(contentMode: .fit)

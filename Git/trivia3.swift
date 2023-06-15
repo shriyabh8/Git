@@ -13,9 +13,14 @@ struct trivia3: View {
     
     var body: some View {
         VStack {
-            Text("What is the name of the horse in Tangled?")
+            Text("What is the name of the horse in Tangled?").font(.custom("Comfortaa-Light", size: 25))
+            
                 .font(.largeTitle)
+                .multilineTextAlignment(.center)
                 .padding()
+                .background(
+                    Image("triviabg")
+                    )
             Image("T3")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)

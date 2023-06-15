@@ -13,11 +13,16 @@ struct trivia12: View {
     
     var body: some View {
         VStack {
-            Text("Why does Cinderella dress in rags and work for her stepmother?")
+            Text("Why does Cinderella dress in rags and work for her stepmother?").font(.custom("Comfortaa-Light", size: 25))
+            
 
 
                 .font(.largeTitle)
+                .multilineTextAlignment(.center)
                 .padding()
+                .background(
+                    Image("triviabg")
+                    )
             
             Image("T12")
                 .resizable(resizingMode: .stretch)
