@@ -74,14 +74,39 @@ struct ContentView: View {
                                                               .tint(Color(red: 0.696, green: 0.772, blue: 0.838))
                                 
         
+                                 
                              }
                              
                              .font(.title)
                              .foregroundColor(.black)
                              .buttonStyle(.borderedProminent)
                              .tint(Color(red: 0.696, green: 0.772, blue: 0.838))
+                    
+                    
+                    NavigationLink(destination:Top10Movies())
+                             {
+                               
+                                 Text("Top 10 Movies ").font(.custom("Nunito-Light", size: 25))
+                                                                  }
+                                                             .font(.title)
+                                                             .foregroundColor(.black)
+                                                             .buttonStyle(.borderedProminent)
+                                                             .tint(Color(hue: 1.0, saturation: 0.305, brightness: 0.834))
+                                                             .padding()
+                                                             .padding()
+
+                        
+                                  
+                             .font(.title)
+                             .foregroundColor(.black)
+                             .buttonStyle(.borderedProminent)
+                             .tint(Color(hue: 1.0, saturation: 0.305, brightness: 0.834))
+                             .padding()
+                    
                 
                 }
+                
+                
                 }
             }
     }
