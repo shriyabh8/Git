@@ -548,6 +548,15 @@ struct MovieQuiz: View {
                                                             Text("Results!")
                                                                 .font(.title)
                                                                 .fontWeight(.bold)
+                                                            
+                                                            NavigationLink(destination: ContentView()) {
+                                                                Text("Home")
+                                                            }
+                                                            .font(.title2)
+                                                            .tint(.gray)
+                                                            .buttonStyle(.borderedProminent)
+                                                            .padding()
+                                                            
                                                             if product == "Action" && age == "Kid"{
                                                                 ForEach(actionKid, id:\.self){actionKid in
                                                                     Text(actionKid)
