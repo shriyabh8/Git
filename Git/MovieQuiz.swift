@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct MovieQuiz: View {
-    @State private var result = ""
+    @State private var product = ""
+    
     var body: some View {
         ZStack {
 //            Color(.white)
@@ -28,35 +29,35 @@ struct MovieQuiz: View {
                     .padding()
                 
                 Button("Action"){
-                    result = "Action"
+                    product = "Action"
                 }
                 .font(.title2)
                 .tint(.gray)
                 .buttonStyle(.borderedProminent)
                 
                 Button("Romance"){
-                    result = "Romance"
+                    product = "Romance"
                 }
                 .font(.title2)
                 .tint(.gray)
                 .buttonStyle(.borderedProminent)
                 
                 Button("Comedy"){
-                    result = "Comedy"
+                    product = "Comedy"
                 }
                 .font(.title2)
                 .tint(.gray)
                 .buttonStyle(.borderedProminent)
                 
                 Button("Drama"){
-                    result = "Drama"
+                    product = "Drama"
                 }
                 .font(.title2)
                 .tint(.gray)
                 .buttonStyle(.borderedProminent)
                 
                 Button("Horror"){
-                    result = "Horror"
+                    product = "Horror"
                 }
                 .font(.title2)
                 .tint(.gray)
@@ -72,7 +73,7 @@ struct MovieQuiz: View {
                 .tint(.gray)
                 .padding()
                 
-                Text("\(result)")
+                Text("\(product)")
                 
             }
             

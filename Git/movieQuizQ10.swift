@@ -52,7 +52,7 @@ struct movieQuizQ10: View {
             
             
             NavigationLink(destination: results()){
-                Text("Next")
+                Text("Results")
             }
             .font(.title2)
             .tint(.gray)

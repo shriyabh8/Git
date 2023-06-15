@@ -16,6 +16,10 @@ struct trivia2: View {
                 Text("Who is Harry Potter's best friend in the first movie ?")
                     .font(.largeTitle)
                     .padding()
+                Image("T2")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                    .padding()
                 
                 //options
                 Button("Draco Malfoy") {
@@ -47,7 +51,10 @@ struct trivia2: View {
                 NavigationLink(destination: trivia3()) {
                     Text("Next")
                 }
-        
+                .font(.title2)
+                .tint(.gray)
+                .buttonStyle(.borderedProminent)
+                .padding()
         }
             .padding(.top, 5.0)
             .font(.title)

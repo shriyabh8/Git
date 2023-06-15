@@ -16,7 +16,10 @@ struct trivia3: View {
             Text("What is the name of the horse in Tangled?")
                 .font(.largeTitle)
                 .padding()
-            
+            Image("T3")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+                .padding()
             //options
             Button("Pascal") {
                 output = "Incorrect ❌"
@@ -47,6 +50,10 @@ struct trivia3: View {
             NavigationLink(destination: trivia4()) {
                 Text("Next")
             }
+            .font(.title2)
+            .tint(.gray)
+            .buttonStyle(.borderedProminent)
+            .padding()
              
         }
         .padding(.top, 5.0)

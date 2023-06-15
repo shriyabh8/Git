@@ -16,7 +16,10 @@ struct trivia5: View {
             Text("When was Charlie and the chocolate factory released?")
                 .font(.largeTitle)
                 .padding()
-            
+            Image("T5")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+                .padding()
             //options
             Button("1956") {
                 output = "Incorrect ❌"
@@ -47,7 +50,10 @@ struct trivia5: View {
             NavigationLink(destination: trivia6()) {
                 Text("Next")
             }
-               
+            .font(.title2)
+            .tint(.gray)
+            .buttonStyle(.borderedProminent)
+            .padding()
         }
         
         

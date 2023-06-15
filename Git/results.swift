@@ -7,9 +7,26 @@
 
 import SwiftUI
 
+
 struct results: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(" 5 Movies that matched your results!")
+                .font(.title)
+                .fontWeight(.bold)
+            
+            
+            NavigationLink(destination: ContentView()) {
+                Text("Home")
+            }
+            .font(.title2)
+            .tint(.gray)
+            .buttonStyle(.borderedProminent)
+            .padding()
+            
+    }
+       
+      
     }
 }
 

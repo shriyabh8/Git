@@ -16,6 +16,10 @@ struct Trivia: View {
                 Text("What actor plays the role of Iron Man?")
                     .font(.largeTitle)
                     .padding()
+                Image("T1")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                    .padding()
                 
                 //options
                 Button("Tom Holland") {
@@ -49,7 +53,10 @@ struct Trivia: View {
                 NavigationLink(destination: trivia2()) {
                     Text("Next")
                 }
-               
+                .font(.title2)
+                .tint(.gray)
+                .buttonStyle(.borderedProminent)
+                .padding()
                    
             }
             .padding(.top, 5.0)

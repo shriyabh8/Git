@@ -19,6 +19,11 @@ struct trivia15: View {
                 .font(.largeTitle)
                 .padding()
             
+            Image("T15")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+                .padding()
+            
             //options
             Button("Blair") {
                 output = "Incorrect ❌"
@@ -45,6 +50,14 @@ struct trivia15: View {
             .tint(Color(hue: 0.132, saturation: 0.462, brightness: 0.895))
             
             Text("\(output)")
+            
+            NavigationLink(destination: ContentView()) {
+                Text("Home")
+            }
+            .font(.title2)
+            .tint(.gray)
+            .buttonStyle(.borderedProminent)
+            .padding()
                
         }
         .padding(.top, 5.0)

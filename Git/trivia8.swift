@@ -19,6 +19,11 @@ struct trivia8: View {
                 .font(.largeTitle)
                 .padding()
             
+            Image("T8")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+                .padding()
+            
             //options
             Button("Bob") {
                 output = "Incorrect ❌"
@@ -49,7 +54,10 @@ struct trivia8: View {
             NavigationLink(destination: trivia9()) {
                 Text("Next")
             }
-               
+            .font(.title2)
+            .tint(.gray)
+            .buttonStyle(.borderedProminent)
+            .padding()
         }
         .padding(.top, 5.0)
         .font(.title)

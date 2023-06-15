@@ -16,7 +16,10 @@ struct trivia4: View {
             Text("Where does the movie Aladdin take place??")
                 .font(.largeTitle)
                 .padding()
-            
+            Image("T4")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+                .padding()
             //options
             Button("Agrabah") {
                 output = "Correct ✅"
@@ -47,7 +50,10 @@ struct trivia4: View {
             NavigationLink(destination: trivia5()) {
                 Text("Next")
             }
-               
+            .font(.title2)
+            .tint(.gray)
+            .buttonStyle(.borderedProminent)
+            .padding()
         }
         .padding(.top, 5.0)
         .font(.title)

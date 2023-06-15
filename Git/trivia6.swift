@@ -18,6 +18,10 @@ struct trivia6: View {
                 .font(.largeTitle)
                 .padding()
             
+            Image("T6")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+                .padding()
             //options
             Button("The Queen of hearts") {
                 output = "Correct ✅"
@@ -48,7 +52,10 @@ struct trivia6: View {
             NavigationLink(destination: trivia7()) {
                 Text("Next")
             }
-               
+            .font(.title2)
+            .tint(.gray)
+            .buttonStyle(.borderedProminent)
+            .padding()
         }
         .padding(.top, 5.0)
         .font(.title)
