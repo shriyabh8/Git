@@ -585,30 +585,40 @@ struct MovieQuiz: View {
                                                             if product == "Action" && age == "Kid"{
                                                                 ForEach(actionKid, id:\.self){actionKid in
                                                                     Text(actionKid)
+                                                                        .padding()
+                                                    .font(.custom("Comfortaa-Light", size: 25))
                                                                 }
                                                                 
                                                             }
                                                             if product == "Romance" && age == "Kid"{
                                                                 ForEach(romanceKid, id:\.self){romanceKid in
                                                                     Text(romanceKid)
+                                                                        .padding()
+                                                    .font(.custom("Comfortaa-Light", size: 25))
                                                                 }
                                                             }
                                                             
                                                             if product == "Comedy" && age == "Kid"{
                                                                 ForEach(comedyKid, id:\.self){comedyKid in
                                                                     Text(comedyKid)
+                                                                        .padding()
+                                                    .font(.custom("Comfortaa-Light", size: 25))
                                                                 }
                                                             }
                                                             
                                                             if product == "Drama" && age == "Kid"{
                                                                 ForEach(dramaKid, id:\.self){dramaKid in
                                                                     Text(dramaKid)
+                                                                        .padding()
+                                                    .font(.custom("Comfortaa-Light", size: 25))
                                                                 }
                                                             }
                                                             
                                                             if product == "Horror" && age == "Kid"{
                                                                 ForEach(horrorKid, id:\.self){horrorKid in
                                                                     Text(horrorKid)
+                                                                        .padding()
+                                                    .font(.custom("Comfortaa-Light", size: 25))
                                                                 }
                                                             }
                                                             
@@ -618,30 +628,39 @@ struct MovieQuiz: View {
                                                                 if product == "Action" && age == "Child"{
                                                                     ForEach(actionChild, id:\.self){actionChild in
                                                                         Text(actionChild)
-                                                                    }
+                                                                            .padding()
+                                                        .font(.custom("Comfortaa-Light", size: 25))                               }
                                                                     
                                                                 }
                                                                 if product == "Romance" && age == "Child"{
                                                                     ForEach(romanceChild, id:\.self){romanceChild in
                                                                         Text(romanceChild)
+                                                                            .padding()
+                                                        .font(.custom("Comfortaa-Light", size: 25))
                                                                     }
                                                                 }
                                                                 
                                                                 if product == "Comedy" && age == "Child"{
                                                                     ForEach(comedyKid, id:\.self){comedyKid in
                                                                         Text(comedyKid)
+                                                                            .padding()
+                                                        .font(.custom("Comfortaa-Light", size: 25))
                                                                     }
                                                                 }
                                                                 
                                                                 if product == "Drama" && age == "Child"{
                                                                     ForEach(dramaChild, id:\.self){dramaChild in
                                                                         Text(dramaChild)
+                                                                            .padding()
+                                                        .font(.custom("Comfortaa-Light", size: 25))
                                                                     }
                                                                 }
                                                                 
                                                                 if product == "Horror" && age == "Child"{
                                                                     ForEach(horrorChild, id:\.self){horrorChild in
                                                                         Text(horrorChild)
+                                                                            .padding()
+                                                        .font(.custom("Comfortaa-Light", size: 25))
                                                                     }
                                                                 }
                                                                 
@@ -652,30 +671,39 @@ struct MovieQuiz: View {
                                                                 if product == "Action" && age == "Teen"{
                                                                     ForEach(actionTeen, id:\.self){actionTeen in
                                                                         Text(actionTeen)
+                                                                            .padding()
+                                                        .font(.custom("Comfortaa-Light", size: 25))
                                                                     }
                                                                     
                                                                 }
                                                                 if product == "Romance" && age == "Teen"{
                                                                     ForEach(romanceTeen, id:\.self){romanceTeen in
                                                                         Text(romanceTeen)
+                                                                            .padding()
+                                                        .font(.custom("Comfortaa-Light", size: 25))
                                                                     }
                                                                 }
                                                                 
                                                                 if product == "Comedy" && age == "Teen"{
                                                                     ForEach(comedyTeen, id:\.self){comedyTeen in
                                                                         Text(comedyTeen)
+                                                                            .padding()
+                                                        .font(.custom("Comfortaa-Light", size: 25))
                                                                     }
                                                                 }
                                                                 
                                                                 if product == "Drama" && age == "Teen"{
                                                                     ForEach(dramaTeen, id:\.self){dramaTeen in
                                                                         Text(dramaTeen)
-                                                                    }
+                                                                            .padding()
+                                                        .font(.custom("Comfortaa-Light", size: 25))                                  }
                                                                 }
                                                                 
                                                                 if product == "Horror" && age == "Teen"{
                                                                     ForEach(horrorTeen, id:\.self){horrorTeen in
                                                                         Text(horrorTeen)
+                                                                            .padding()
+                                                        .font(.custom("Comfortaa-Light", size: 25))
                                                                     }
                                                                 }
                                                                 
@@ -685,30 +713,40 @@ struct MovieQuiz: View {
                                                                 if product == "Action" && age == "Adult"{
                                                                     ForEach(actionAdult, id:\.self){actionAdult in
                                                                         Text(actionAdult)
+                                                                            .padding()
+                                                        .font(.custom("Comfortaa-Light", size: 25))
                                                                     }
                                                                     
                                                                 }
                                                                 if product == "Romance" && age == "Adult"{
                                                                     ForEach(romanceAdult, id:\.self){romanceAdult in
                                                                         Text(romanceAdult)
+                                                                            .padding()
+                                                        .font(.custom("Comfortaa-Light", size: 25))
                                                                     }
                                                                 }
                                                                 
                                                                 if product == "Comedy" && age == "Adult"{
                                                                     ForEach(comedyAdult, id:\.self){comedyAdult in
                                                                         Text(comedyAdult)
+                                                                            .padding()
+                                                        .font(.custom("Comfortaa-Light", size: 25))
                                                                     }
                                                                 }
                                                                 
                                                                 if product == "Drama" && age == "Adult"{
                                                                     ForEach(dramaAdult, id:\.self){dramaAdult in
                                                                         Text(dramaAdult)
+                                                                            .padding()
+                                                        .font(.custom("Comfortaa-Light", size: 25))
                                                                     }
                                                                 }
                                                                 
                                                                 if product == "Horror" && age == "Adult"{
                                                                     ForEach(horrorAdult, id:\.self){horrorAdult in
                                                                         Text(horrorAdult)
+                                                                            .padding()
+                                                        .font(.custom("Comfortaa-Light", size: 25))
                                                                     }
                                                                 }
                                                             }
