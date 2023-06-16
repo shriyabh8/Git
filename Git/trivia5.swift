@@ -59,6 +59,14 @@ struct trivia5: View {
             .tint(.gray)
             .buttonStyle(.borderedProminent)
             .padding()
+            
+            NavigationLink(destination: ContentView()) {
+                Text("Home")
+            }
+            .font(.title2)
+            .tint(.gray)
+            .buttonStyle(.borderedProminent)
+            .padding()
         }
         
         
