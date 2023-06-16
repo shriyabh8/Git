@@ -12,6 +12,8 @@ struct trivia15: View {
     @State private var output = ""
     
     var body: some View {
+        
+        
         VStack {
             Text("Which of these is not another name for Barbie (in her movies)?").font(.custom("Comfortaa-Light", size: 25))
            
